@@ -71,10 +71,10 @@ function App() {
         <p className='job'>{job}</p>
         <p className='info'>{text}</p>
         <div className='btn-container'>
-          <button className='prev-button' type='button' onClick={prevPerson}>
+          <button className='prev-btn' type='button' onClick={prevPerson}>
             <FaChevronLeft />
           </button>
-          <button className='next-button' type='button' onClick={nextPerson}>
+          <button className='next-btn' type='button' onClick={nextPerson}>
             <FaChevronRight />
           </button>
         </div>
